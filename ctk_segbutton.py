@@ -33,9 +33,9 @@ my_seg_button = customtkinter.CTkSegmentedButton(root, values=my_values, command
 	state="normal",
 	text_color_disabled="blue",
 	dynamic_resizing=True
-
-
 	)
+
+
 my_seg_button.pack(pady=40)
 
 # Set default Selection
