@@ -39,10 +39,7 @@ my_switch = customtkinter.CTkSwitch(root, text="Switch", command=switcher,
 	button_hover_color="yellow",
 	font=("Helvetica", 24),
 	text_color="blue",
-	state="disabled",
-
-
-
+	state="normal",
 
 	)
 my_switch.pack(pady=40)
