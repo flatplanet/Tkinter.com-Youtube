@@ -15,6 +15,9 @@ def selector():
 	radvar.set("Mushroom")
 	clicked()
 
+# Make function
+def make():
+	my_label.config(text=f'You Picked {radvar.get()}!')
 
 # Create a Tkinter Var (IntVar, StringVar)
 radvar = StringVar()
@@ -41,6 +44,9 @@ my_label.pack(pady=10)
 # Button
 my_button = Button(root, text="Select Mushroom", command=selector)
 my_button.pack(pady=10)
+
+my_button2 = Button(root, text="Make Selection", command=make)
+my_button2.pack(pady=10)
 
 
 
